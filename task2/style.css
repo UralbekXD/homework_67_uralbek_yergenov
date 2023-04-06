@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend {
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.avatar {
+    border: 1px solid black;
+    max-width: 100px;
+    border-radius: 50%;
+}
